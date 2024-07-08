@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <nav>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-2-line"></i></span>
+            <h4>Menu</h4>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#client">Client</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="header__image">
+          <img src="img/car6.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h1 class="section__header">All-in-one<br />car buying app</h1>
+          <p class="section__description">
+            With a user-friendly interface, our app consolidates all your car
+            buying needs in one place, offering a convenient and efficient solution for
+            browsing, financing, and purchasing your next vehicle.
+          </p>
+          <div class="header__btns">
+            <a href="#">
+              <img class="left" src="img/google-play.jpg" alt="google-play" />
+            </a>
+            <a href="#">
+              <img class="right" src="img/app-store.jpg" alt="app-store" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container car__container" id="cars">
+      <div class="car__image">
+        <img src="img/car5.jpg" alt="cars" />
+      </div>
+      <div class="car__content">
+        <h2 class="section__header">Concierge for<br />your car purchase</h2>
+        <p class="section__description">
+          Our concierge service is designed to elevate your car buying experience by
+          providing personalized assistance and expert guidance throughout your
+          journey.
+        </p>
+        <button class="btn">Learn More</button>
+        <img src="img/car7.jpg" alt="map" />
+      </div>
+    </section>
+
+    <section class="section__container explore__container" id="explore">
+      <div class="explore__content">
+        <h2 class="section__header">
+          Explore hidden<br />gems & popular<br />models
+        </h2>
+        <button class="btn">Learn More</button>
+      </div>
+      <div class="explore__wrapper">
+        <div class="explore__wrapper-inner">
+          <img src="img/car8.jpg" alt="explore" />
+          <img src="img/car9.jpg" alt="explore" />
+          <img src="img/car10.jpg" alt="explore" />
+          <img src="img/car11.jpg" alt="explore" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container discover__container" id="discover">
+      <h2 class="section__header">
+        Unleashing the power<br />of our car buying app
+      </h2>
+      <div class="discover__grid">
+        <div class="discover__destination">
+          <div class="discover__destination__image">
+            <img class="left" src="img/car17.jpg" alt="destination" />
+            <img class="right" src="img/car18.jpg" alt="destination" />
+          </div>
+          <h4 class="up">Discover your dream<br />car models</h4>
+          <p class="section__description">
+            Navigate through a curated selection of car options, each
+            designed to ignite your passion and fulfill your driving
+            aspirations.
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+        <div class="discover__plan">
+          <div class="discover__plan__content">
+            <h4 class="up">Plan purchase with just<br />a few taps</h4>
+            <p class="section__description">
+              With streamlined navigation and real-time updates, organizing your
+              car purchase has never been more efficient.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+          <img class="right" src="img/car16.jpg" alt="plan" />
+        </div>
+        <div class="discover__guide">
+          <div class="discover__guide__content">
+            <h4 class="up">Ultimate guide to<br />buying a car</h4>
+            <p class="section__description">
+              Whether you're a seasoned buyer or purchasing your first car, our guide covers everything from must-know features and best models to practical advice on financing, test driving, and negotiating deals.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+          <div class="discover__guide__image">
+            <img src="img/car13.jpg" alt="guide" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container customer__container" id="client">
+      <h2 class="section__header">
+        Inspiring stories from our<br />satisfied customers
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="img/car1.jpg"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="img/customer-user-1.jpg"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                The app made buying my car a breeze—effortless and efficient!
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="img/car2.jpg"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="img/customer-user-2.jpg"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                Incredible customer service—prompt responses and problem-solving.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="img/car3.jpg"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="img/customer-user-3.jpg"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                Love the personalized suggestions, keeping me informed about the best deals.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="img/car4.jpg"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="img/customer-user-4.jpg"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                The financing options feature helped me find the best deals.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="img/car14.jpg"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="img/customer-user-5.jpg"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                Great discounts and exclusive deals—saved a lot on my car purchase.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="img/car15.jpg"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="img/customer-user-6.jpg"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                User-friendly interface and seamless navigation—my go-to car buying companion.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container faq__container" id="faq">
+      <h2 class="section__header">FAQ</h2>
+      <div class="faq__grid">
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>How can I book a test drive on your website?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Booking a test drive is easy! Simply visit our homepage and enter the car model you are interested in. Click on the "Book Test Drive" button, and you'll see a list of available times. Choose the one that suits you best and follow the simple steps to complete your booking.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              What should I do if I need to make changes to my car reservation?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Making changes to your car reservation is hassle-free. Log in to
+            your account, go to the "My Reservations" section, and select the
+            reservation you want to modify. From there, you can usually find
+            options to edit dates, car preferences, or even cancel the
+            reservation if needed.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              Are there any specific documents required for financing options?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Stay informed about required documents for financing by
+            checking our dedicated financing page. We provide up-to-date
+            information on the necessary paperwork, credit requirements, and available finance plans for various models. It's essential to review this information before planning your purchase.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              What payment methods are accepted for car purchases on your site?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            We accept a variety of payment methods, including major credit
+            cards, debit cards, and popular digital wallets. During the purchase
+            process, you can choose your preferred payment option. Rest assured,
+            our payment gateway is secure and ensures the safety of your
+            financial information.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              How can I contact customer support for assistance during my car purchase?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            We're here to help! You can reach our customer support team 24/7
+            through our helpline or via email. We also offer a live chat option
+            on our website for quick assistance. If you encounter any issues
+            during your purchase or have questions, don't hesitate to get in touch,
+            and we'll do our best to assist you promptly.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <h2 class="section__header">Car Hub</h2>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+        </div>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#cars">Cars</a></li>
+          <li><a href="#discover">Discover</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Car Hub. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
